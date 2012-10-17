@@ -6,6 +6,10 @@ scrollTargeting.js is a small (468 bytes minimised, 264 bytes minimised and gzip
 
 The plug-in “watches” the mouse cursor position and the DOM’s focused properties and adjusts the scroll behaviour accordingly. It has a very small footprint and should not have a negative impact on performance.
 
+### Why?
+
+To scratch a personal itch. Read the back-story on [my weblog.](http://darkblue.sdf.org/weblog/post/scroll-targeting)
+
 ### Demo
 
 I have put together a [demo page,](http://darkblue.sdf.org/lab/scrollTargeting/) illustrating the various options of the scrollTargeting.js plug-in. The files for the demo page are also available on GitHub.
@@ -41,7 +45,7 @@ The element/object can be any jQuery-style selector. The behaviours are as follo
 
 * #1: If the mouse cursor is over the specified element then scrolling will be limited to that element;
 * #2: If the element gets focus then scrolling will be limited to the element;
-* #3: A combinaton of #1 & #2. If the mouse cursor is over the element or the element gets focus, then scrolling will be limited to the elements.
+* #3: A combinaton of #1 & #2. If the mouse cursor is over the element or the element gets focus, then scrolling will be limited to the element.
 
 ### Where Can I Use It?
 
